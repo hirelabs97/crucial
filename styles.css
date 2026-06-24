@@ -285,19 +285,21 @@ h1 {
   }
 
   .remember-panel {
-    top: auto;
-    left: clamp(154px, 22vw, 190px);
-    right: 76px;
-    bottom: 276px;
-    width: auto;
+    top: 370px;
+    left: 32px;
+    right: auto;
+    bottom: auto;
+    width: min(260px, calc(100% - 70px));
     transform: none;
-    place-items: start;
-    text-align: left;
-    font-size: 0.9rem;
+    place-items: center;
+    text-align: center;
+    font-size: 0.74rem;
+    gap: 0.55rem;
+    z-index: 5;
   }
 
   .remember-panel span {
-    font-size: 0.82rem;
+    font-size: 0.72rem;
   }
 
   .lower-band {
